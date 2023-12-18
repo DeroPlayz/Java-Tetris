@@ -9,11 +9,18 @@ import javax.swing.ImageIcon;
 public class Tetrimino {
     String name;
     ImageIcon texture;
+    int x = 0;
+    int y = 0;
 
     public Tetrimino(String name, ImageIcon texture){
         this.name = name;
         this.texture = texture;
     }
+
+    public void loop(){
+        x++;
+    }
+
 
     public static final Tetrimino I_Piece = new Tetrimino("I", new ImageIcon("res/I_Piece.png"));
     public static final Tetrimino T_Piece = new Tetrimino("T", new ImageIcon("res/T_Piece.png"));
