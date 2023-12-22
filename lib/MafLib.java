@@ -9,8 +9,6 @@ package lib;
 import java.util.Scanner;
 // import java.util.concurrent.CountDownLatch;
 import java.awt.*;
-import static Game.Main.*;
-
 import javax.swing.JComponent;
 // import javax.swing.JLabel;
 import javax.swing.JTextField;

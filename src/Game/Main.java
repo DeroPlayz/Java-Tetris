@@ -7,7 +7,6 @@ import Game.Tetrimino.*;
 import static Game.Tetrimino.Tetrimino.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import static lib.MafLib.*;
 
 public class Main{
     static Tetrimino currentPiece;

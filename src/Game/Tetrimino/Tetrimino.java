@@ -1,9 +1,5 @@
 package Game.Tetrimino;
 
-import java.awt.Image;
-import java.awt.image.BufferedImage;
-import static Game.Main.frame;
-import javax.imageio.IIOImage;
 import javax.swing.ImageIcon;
 
 public class Tetrimino {
