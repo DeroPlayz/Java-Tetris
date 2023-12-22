@@ -32,7 +32,7 @@ public class MafLib{
     public static final String GREEN = "\033[32m"; public static final String GREENH = "\033[42m"; //Mint Green
     public static final String YELLOW = "\033[33m"; public static final String YELLOWH = "\033[43m";
     public static final String BLUE = "\033[34m"; public static final String BLUEH = "\033[44m"; //Dark Blue
-    public static final String MAGENTA = "\033[35m"; public static final String MAGENTAH = "\033[45m";
+    public static final String PURPLE = "\033[35m"; public static final String PURPLEH = "\033[45m";
     public static final String CYAN = "\033[36m"; public static final String CYANH = "\033[46m";
     public static final String WHITE = "\033[37m"; public static final String WHITEH = "\033[47m";
     public static final String BLINK = "\033[5m";
@@ -180,7 +180,7 @@ public class MafLib{
      * @return The value that would put the component at the exact center.
      */
     public static int centerTextH(JComponent j){
-        int h = (int) ((int) (screenWidth/2)-(j.getPreferredSize().getWidth()));
+        int h = (int) ((int) (screenWidth/2)-(j.getPreferredSize().getWidth()/2));
         return h;
     }
 
